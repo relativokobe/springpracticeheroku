@@ -12,6 +12,14 @@ public class SampleController {
     @CrossOrigin
     @GetMapping("/helloworld")
     public String qrCodeSample2() {
+        System.out.println("================ this is a sample log");
+        System.out.println("================ this is a sample log");
+        System.out.println("================ this is a sample log");
+        System.out.println("================ this is a sample log");
+        System.out.println("================ this is a sample log");
+        System.out.println("================ this is a sample log");
+        System.out.println("================ this is a sample log");
+        System.out.println("================ this is a sample log");
         return "helloWorld";
     }
 
