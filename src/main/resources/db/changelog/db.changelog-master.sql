@@ -1,4 +1,6 @@
 --liquibase formatted sql
+
+--changeset kobe:1
 CREATE TABLE users (
     id int primary key,
     name varchar(255),
