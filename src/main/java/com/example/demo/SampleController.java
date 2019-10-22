@@ -25,7 +25,7 @@ public class SampleController {
         System.out.println("================ this is a sample log");
         System.out.println("================ this is a sample log");
         System.out.println("================ this is a sample log");
-        
+        sampleService.insertUser();
         return sampleService.getUsers();
     }
 
