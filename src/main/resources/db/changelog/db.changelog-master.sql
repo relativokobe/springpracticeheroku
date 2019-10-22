@@ -22,8 +22,8 @@ CREATE TABLE items (
 CREATE TABLE orders (
     id INT PRIMARY KEY,
     user_id INT REFERENCES users (id),
-    total_price INT;
-    order_date DATE NOT NULL;
+    total_price INT,
+    order_date DATE NOT NULL,
     order_time TIME NOT NULL
 );
 
