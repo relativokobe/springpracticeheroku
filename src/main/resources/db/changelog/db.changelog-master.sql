@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset kobe:1
+--changeset kobe:10
 
 CREATE TABLE items (
     id INT PRIMARY KEY,
